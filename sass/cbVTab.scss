@@ -1,4 +1,5 @@
 body{
+box-sizing: border-box;
 
 font-family: arial;
 
@@ -22,15 +23,59 @@ cb-tab{
 	background-color:red;
 }
 
-.blue{
+cb-tab-placeholder{
+	display:block;
+	width: 400px;
+	padding:20px;
 	background-color:blue;
+}
+
+cb-v-tabs{
+box-sizing: border-box;
+	
 }
 
 cb-tab{
 	
 	display:block;
-	margin:5px;
+	background-color:#ffffff;
 }
+
+cb-tab-link{
+	
+	margin-left: 2%;
+	padding:2px;
+}
+
+cb-tab-link a{
+	
+	text-decoration:none;
+	color:black;
+}
+
+cb-tab-link a:hover{
+	
+	color:#ffffff;
+}
+
+cb-tab-link a:focus{
+	
+	color:#ffffff;
+}
+
+
+tab-menu{
+	display:block;
+	height:10px;
+	background-color:#ccc;
+	padding:10px;
+
+}
+
+tab-content{
+	margin: 20px;
+}
+
 
 button {
 /*general button style*/	
