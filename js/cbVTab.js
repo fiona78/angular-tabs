@@ -55,14 +55,25 @@ angular.module( 'cbVTabs', [] )
       link: function(scope, element, attrs, tabsCtrl) {
         tabsCtrl.addTab(scope);
 
+        var menutabs = element.find('cb-tab-link'); 
+
+        /*angular.forEach( menutabs, function( menu-tab ) { 
+
                 scope.$apply( function() {
                 
-                    $('cb-tab-link a').on('focus', function(){
+                    $('menu-tab').on('focus', function(){
                     //$(this).trigger('click');
                     console.log("focused");
                     });
 
                 });
+
+
+        });
+*/
+                
+
+
       },
       
        templateUrl: 'panel-content.html'
